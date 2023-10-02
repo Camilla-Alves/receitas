@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.introducao-p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+nav {
+  padding-bottom: 30px;
+}
+
+header {
+  height: 60px;
+}
+
+main {
+  overflow-y: auto;
+  height: calc(100vh - 100px);
+  margin-top: 20px;
+}
+
+.footer {
+  height: 25px;
+  background: black;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.card .img-fit {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  gap: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .card .img-fit {
+    aspect-ratio: 1.45 / 1;
+  }
+}
